@@ -1,0 +1,403 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "d2881319-0f30-4860-ae23-e52a6e776501")
+	(paper "A5")
+	(title_block
+		(title "PCB_VectrexController_Root")
+		(date "2024-08-30")
+		(rev "v1")
+		(comment 1 "Author : Francis O. Houle")
+	)
+	(lib_symbols)
+	(wire
+		(pts
+			(xy 57.15 38.1) (xy 88.9 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0a689b6d-5a37-4e57-a643-eeec4e91d3bc")
+	)
+	(wire
+		(pts
+			(xy 115.57 41.91) (xy 137.16 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3bfc4bd5-3b5b-408a-8398-acb9d808e34f")
+	)
+	(wire
+		(pts
+			(xy 57.15 41.91) (xy 88.9 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3ef0afc8-baeb-4b1c-a43e-84f50bfb9e1b")
+	)
+	(wire
+		(pts
+			(xy 88.9 49.53) (xy 57.15 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4342b8e5-f9cb-4ffc-8915-1a787430a34d")
+	)
+	(wire
+		(pts
+			(xy 57.15 34.29) (xy 88.9 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "55cfe1cc-7edc-4cc4-91ae-e1e74da2d712")
+	)
+	(wire
+		(pts
+			(xy 137.16 45.72) (xy 115.57 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8ee601e6-b424-49bb-8091-80a73ceb3e73")
+	)
+	(wire
+		(pts
+			(xy 115.57 38.1) (xy 137.16 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ce44c3be-67d9-42ad-9324-55f31bde20c7")
+	)
+	(wire
+		(pts
+			(xy 137.16 34.29) (xy 115.57 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cef1f1dd-7a76-459a-a735-616adb92ccbb")
+	)
+	(wire
+		(pts
+			(xy 88.9 45.72) (xy 57.15 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e108b692-d9fc-45bc-886a-a406f55df3b7")
+	)
+	(sheet
+		(at 137.16 30.48)
+		(size 12.7 22.86)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "06ccedfe-d7ca-41a3-b092-1b8343ad5d09")
+		(property "Sheetname" "Controller_Joystick"
+			(at 137.16 29.7684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Controller_Joystick.kicad_sch"
+			(at 137.16 53.9246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "-5v" input
+			(at 137.16 45.72 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "4115de0d-b0fa-46f0-bb7e-11fc0a16815c")
+		)
+		(pin "+5v" input
+			(at 137.16 41.91 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "e7f386f1-e410-40db-b44f-e9850f8ba952")
+		)
+		(pin "Sig_X" output
+			(at 137.16 34.29 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "c9406864-2290-4213-83d5-2c239c1b0f1f")
+		)
+		(pin "Sig_Y" output
+			(at 137.16 38.1 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "3d05210d-e351-49b8-9b0c-18fc784f10ac")
+		)
+		(instances
+			(project "VectexController"
+				(path "/d2881319-0f30-4860-ae23-e52a6e776501"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 88.9 31.75)
+		(size 26.67 21.59)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "883d1b64-f2a0-45b4-83bb-36d4db72992b")
+		(property "Sheetname" "VectrexCable_Connection"
+			(at 88.9 31.0384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "VectrexCable_Connection.kicad_sch"
+			(at 88.9 53.9246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "Sig_Y" input
+			(at 115.57 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "07efd9ae-17d7-41cc-a5b4-b33f17d95662")
+		)
+		(pin "+5v" output
+			(at 115.57 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "ea91cd7e-9b2b-489f-980b-55276eb08c1e")
+		)
+		(pin "BT1" output
+			(at 88.9 34.29 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "0f0151d7-3889-474c-a66c-1452230e20d8")
+		)
+		(pin "BT3" output
+			(at 88.9 41.91 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "349d690f-ce74-4eb6-9b5d-759909b03d73")
+		)
+		(pin "BT2" output
+			(at 88.9 38.1 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "c1b39cea-4736-4032-abf0-3e4f32ec0bf3")
+		)
+		(pin "Sig_X" input
+			(at 115.57 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "5c59176f-5119-4a04-a25d-f68105708e38")
+		)
+		(pin "BT4" output
+			(at 88.9 45.72 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "d75b31d1-b2b2-4fd0-b960-4db9c20cdb99")
+		)
+		(pin "GND" input
+			(at 88.9 49.53 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "ec822f8d-1c3e-471a-beea-cd757b4975be")
+		)
+		(pin "-5v" output
+			(at 115.57 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "c483d975-dded-43f7-929c-4ca3fb8eca15")
+		)
+		(instances
+			(project "VectexController"
+				(path "/d2881319-0f30-4860-ae23-e52a6e776501"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 44.45 31.75)
+		(size 12.7 21.59)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "90868948-f15c-475d-8efc-df853746cf2e")
+		(property "Sheetname" "Controller_Button"
+			(at 44.45 31.0384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Controller_Button.kicad_sch"
+			(at 44.45 53.9246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "BT4" input
+			(at 57.15 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "56f90405-84b2-47af-8ebf-e9fa65d26513")
+		)
+		(pin "BT2" input
+			(at 57.15 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "351b7810-3fce-4737-8ece-e0c12a456497")
+		)
+		(pin "BT3" input
+			(at 57.15 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "e7e1be27-3f85-4fd4-8746-c024d1a3489c")
+		)
+		(pin "BT1" input
+			(at 57.15 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "937cb30c-227f-4a4c-9de3-ea9e5710053b")
+		)
+		(pin "GND" output
+			(at 57.15 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "5835249f-c985-42d3-b5d0-2b4cd032283a")
+		)
+		(instances
+			(project "VectexController"
+				(path "/d2881319-0f30-4860-ae23-e52a6e776501"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+)
